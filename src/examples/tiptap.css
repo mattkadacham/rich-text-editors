@@ -1,0 +1,18 @@
+
+
+.aaa {
+  color: red;
+}
+
+.ProseMirror {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #333;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
