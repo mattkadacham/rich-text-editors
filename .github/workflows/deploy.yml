@@ -31,7 +31,7 @@ jobs:
     name: deploy
     runs-on: ubuntu-latest    
     steps:
-    - uses: actions/checkout@pages
+    - uses: actions/checkout@v3
 
     - name: Deploy
       uses: mattkadacham/rich-text-editors@pages
