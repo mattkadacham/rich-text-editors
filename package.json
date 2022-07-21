@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "homepage": "https://mattkadacham.github.io/rich-text-editors",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist -e dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
