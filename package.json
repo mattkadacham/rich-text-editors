@@ -4,21 +4,11 @@
   "version": "0.0.0",
   "homepage": "https://mattkadacham.github.io/rich-text-editors",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "plugins": [
-    [
-      "gh-pages",
-      {
-        "branch": "pages",
-        "dir": "./dist"
-      }
-    ]
-  ],
   "dependencies": {
     "@aeaton/react-prosemirror": "^2.0.3",
     "@aeaton/react-prosemirror-config-default": "^2.0.3",
